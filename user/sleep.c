@@ -3,9 +3,9 @@
 #include "user/user.h"
 
 int
-main(int argv, char *argv[])
+main(int argc, char *argv[])
 {
-    if (argv <= 1) {
+    if (argc <= 1) {
         fprintf(2, "usage: sleep seconds\n");
         exit(1);
     }
