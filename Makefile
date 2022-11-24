@@ -194,7 +194,7 @@ UPROGS=\
 	$U/_wc\
 	$U/_zombie\
 	$U/_sleep\
-	$U/-primes\
+	$U/_primes\
 
 
 
