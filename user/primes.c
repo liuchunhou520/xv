@@ -48,11 +48,11 @@ int main(int argc, char *argv[]) {
         numbers[0] = '0';
         numbers[1] = '0';
         write(fd[1], numbers, MSGSIZE);
-        wait(0);
+        wait(NULL);
 
     } else if (pid == 0){
         prime(fd[0], fd[1]);
-        wait(0);
+        wait(NULL);
     }
 
     exit(0);
